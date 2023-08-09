@@ -1,0 +1,44 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+body {
+  background-color: rgb(198, 213, 237);
+  font-family: 'Rubik', sans-serif;
+  margin: 0;
+}
+
+img {
+  max-width: 100%;
+  border-radius: 20px;
+}
+
+.container {
+  width: 90%;
+  max-width: 400px;
+  margin: 0 auto;
+}
+
+.card {
+  border-radius: 30px;
+  background-color: #fff;
+  margin: 3em 0;
+  padding: 1.2em;
+  text-align: center;
+  box-shadow: 5px 5px 35px rgb(159, 184, 225);
+}
+
+h1 {
+  color: rgb(39, 39, 39);
+  font-size: 1.5rem;
+  padding: 0 1em;
+}
+
+p {
+  font-size: 1.1rem;
+  font-weight: 500;
+  color: rgb(158, 163, 169);
+  padding: .2em 1em;
+}
